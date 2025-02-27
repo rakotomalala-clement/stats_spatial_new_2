@@ -28,3 +28,8 @@ communes_AURA$surf2 <- units::set_units(communes_AURA$surf2, km^2)
 dept_aura <- communes_AURA %>% 
   group_by(dep) %>% 
   summarise(surf_dep = sum(surf2))
+
+plot(dept_aura)
+
+dept_aura2 <- communes_AURA %>% 
+  
