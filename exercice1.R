@@ -31,4 +31,4 @@ dept_aura <- communes_AURA %>%
 
 plot(dept_aura)
 
-dept_aura2 <- communes_AURA %>% 
+dept_aura2 <- communes_AURA %>% ddd
